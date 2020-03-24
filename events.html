@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>AIN-17</title>
+    <link rel="icon" type="image/png" href="img/icons.jpg" sizes="192x192">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.css">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="effects.css">
+</head>
+<body>
+<nav class="navbar navbar-expand-md navbar-dark fixed-top">
+    <div class="container-fluid">
+        <h3 id="logo">AINCHIK-17</h3>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar"><span
+                class="navbar-toggler-icon"></span></button>
+        <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a href="index.html" class="nav-link ">ГЛАВНАЯ</a></li>
+                <li class="nav-item"><a href="about.html" class="nav-link">О НАС</a></li>
+                <li class="nav-item"><a href="gallery.html" class="nav-link">ГАЛЕРЕЯ</a></li>
+                <li class="nav-item"><a href="#" class="nav-link active">СОБЫТИЯ</a></li>
+                <li class="nav-item"><a href="#" class="nav-link" data-toggle="modal" data-target="#myModal">КОНТАКТЫ</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<div class="modal fade" id="myModal">
+    <div class="modal-dialog scroll">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title"><i class="far fa-envelope"></i> НАПИШИ НАМ</h1></h4>
+                <button class="close" type="button" data-dismiss="modal">&times;</button>
+            </div>
+            <div class="modal-body">
+                <form id="modal-contact">
+                    <input name="name" type="text" class="feedback-input" placeholder="Name"/>
+                    <input name="email" type="text" class="feedback-input" placeholder="Email"/>
+                    <textarea name="text" class="feedback-input" placeholder="Comment"></textarea>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <input class="submit" type="submit" value="SUBMIT"/>
+            </div>
+        </div>
+    </div>
+</div>
+<br>
+<header>
+    <div class="container"><br><br>
+        <hr class="mt-2 mb-5">
+        <h1 class="font-weight-light mt-4 mb-0 centered"><i class="far fa-calendar-alt"></i> СОБЫТИЯ</h1><br>
+        <hr class="mt-2 mb-5">
+    </div>
+</header>
+<main>
+    <section id="events">
+        <div class="container">
+            <div class="card-deck">
+                <div class="card mb-4">
+                    <div class="view overlay">
+                        <img class="card-img-top photo" src="img/hackathon.jpg" alt="Card image cap">
+                    </div>
+                    <div class="card-body">
+                        <h2 class="card-title centered">Хакатоны</h2>
+                        <p class="card-text">Здесь вы увидите наши хакатоны, в котором мы участвовали. Для нас главное
+                            участие, не только победа!</p>
+                        <a href="event-hack.html">
+                            <button type="button" class="btn btn-light-blue btn-md">read more...</button>
+                        </a>
+
+                    </div>
+
+                </div>
+                <div class="card mb-4">
+                    <div class="view overlay photo">
+                        <img class="card-img-top" src="img/titel-workshop.png" alt="Card image cap">
+                    </div>
+                    <div class="card-body">
+                        <h2 class="card-title centered">Воркшопы</h2>
+                        <p class="card-text">Мобильная разработка приложений. <br>
+                            Создание сайтов. <br>
+                            Back-end</p>
+                        <a href="event-work.html">
+                            <button type="button" class="btn btn-light-blue btn-md">read more...</button>
+                        </a>
+                    </div>
+                </div>
+                <div class="card mb-4">
+                    <div class="view overlay photo">
+                        <img class="card-img-top" src="img/travel.jpg" alt="Card image cap">
+                    </div>
+                    <div class="card-body">
+                        <h2 class="card-title centered">SCRUM</h2>
+                        <p class="card-text">Легкий по использовании, но его трудно понять. <br>
+                            Его можно использовать в рутинной жизни</p>
+                        <a href="event-scrum.html">
+                            <button type="button" class="btn btn-light-blue btn-md">read more...</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+<footer id="footer"><br>
+    <h4>ПОДПИШИСЬ НА НАС</h4>
+    <a href="#"> <i class="fab fa-twitter"></i></a>
+    <a href="#"> <i class="fab fa-facebook"></i></a>
+    <a href="#"><i class="fab fa-instagram"></i></a>
+</footer>
+<div id="copyrights">
+    <div class="container">
+        <p>
+            &copy; Copyrights <strong>AIN 17</strong>. All Rights Reserved
+        </p>
+    </div>
+
+</div>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+</html>
